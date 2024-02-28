@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="bucks.css" />
+  </head>
+  <body>
+    <div class="back">
+      <div class="menubar">
+        <div class="logo">
+          <img src="logo.png" height="100%" width="100%" />
+        </div>
+
+        <div class="menulist">
+          <div class="home"><a href="star.html">Home</a></div>
+          <div class="gift"><a href="star2.html">Gift</a></div>
+          <div class="order"><a href="star3.html">Order</a></div>
+          <div class="pay"><a href="#" onclick="myshow();">Pay</a></div>
+          <div class="store">Store</div>
+          <input
+            type="search"
+            placeholder="looking for something specific?"
+            class="special"
+          />
+          <a href="star4.html"
+            ><span class="fas fa-user-circle user"> </span
+          ></a>
+        </div>
+      </div>
+      <div class="homegiift">
+        <p>Home > order</p>
+      </div>
+      <div class="storefound">
+        <img src="Location icon 3.svg" alt="" />
+        <hr style="width: 290px; top: 28px; left: 130px; position: relative" />
+        <i class="fa-solid fa-clock"></i>
+        <p class="minn">00min</p>
+        <div class="pink">
+          <img src="searchresult@2x.png" alt="" />
+          <p>No Store Found!</p>
+          <p>
+            Please enter a different location to find the nearest Starbucks.
+          </p>
+        </div>
+      </div>
+      <div class="bestt">
+        <ul>
+          <li>Bestseller</li>
+          <li>Drinks</li>
+          <li>Food</li>
+          <li>Merchandise</li>
+          <li>Coffee At Home</li>
+          <li>Ready To Eat</li>
+        </ul>
+      </div>
+      <section class="conntent">
+        <h3><p>Best seller</p></h3>
+        <p>
+          Everyone's favorite Starbucks put together in a specially curated
+          collection.
+        </p>
+      </section>
+
+      <section class="java">
+        <div class="javachip">
+          <img src="100501.jpg" style="height: 96px" alt="" />
+          <p>
+            <img class="vg" src="veg.svg" alt="" />
+          </p>
+          <p class="chip">Java Chip Frappuccino</p>
+          <p class="size">TALL(354 ML) .392 kcal</p>
+          <p class="blend">
+            We blend mocha sauce and Frappuccino® chips with Frappuccino...
+          </p>
+          <button class="dd">Add item</button>
+          <p class="rp">&#8377;367.50</p>
+        </div>
+        <div class="cafeamericano">
+          <img src="100433.jpg" style="height: 96px" alt="" />
+          <p>
+            <img class="vg" src="veg.svg" alt="" />
+          </p>
+          <p class="chip">Caffe Americano</p>
+          <p class="size">TALL(354 ML) .392 kcal</p>
+          <p class="blend">
+            Rich in flavour, full-bodied espresso with hot water in true...
+          </p>
+          <button class="dd">Add item</button>
+          <p class="rp">&#8377;367.50</p>
+        </div>
+        <div class="coldcoffee">
+          <img src="103515.jpg" style="height: 96px" alt="" />
+          <p>
+            <img class="vg" src="veg.svg" alt="" />
+          </p>
+          <p class="chip">Cold coffee</p>
+          <p class="size">TALL(354 ML) .392 kcal</p>
+          <p class="blend">
+            Our signature rich in flavour espresso blended with delicate...
+          </p>
+          <button class="dd">Add item</button>
+          <p class="rp">&#8377;367.50</p>
+        </div>
+        <div class="Frappuccino">
+          <img src="112570.webp" style="height: 96px" alt="" />
+          <p>
+            <img class="vg" src="veg.svg" alt="" />
+          </p>
+          <p class="chip">Double Chocolate Chip Frappuccino</p>
+          <p class="size">TALL(354 ML) .392 kcal</p>
+          <p class="blend">
+            Rich mocha-flavored sauce meets up with chocolaty chips, mil...
+          </p>
+          <button class="dd">Add item</button>
+          <p class="rp">&#8377;367.50</p>
+        </div>
+        <div class="Cappuccino">
+          <img src="100419.jpg" style="height: 96px" alt="" />
+          <p>
+            <img class="vg" src="veg.svg" alt="" />
+          </p>
+          <p class="chip">Cappuccino</p>
+          <p class="size">TALL(354 ML) .392 kcal</p>
+          <p class="blend">
+            Dark, Rich in flavour espresso lies in wait under a smoothed..
+          </p>
+          <button class="dd">Add item</button>
+          <p class="rp">&#8377;367.50</p>
+        </div>
+
+        <div class="Double">
+          <img src="100419.jpg" style="height: 96px" alt="" />
+          <p>
+            <img class="vg" src="veg.svg" alt="" />
+          </p>
+          <p class="chip">Double Chocolate Chip Cookie</p>
+          <p class="size">TALL(354 ML) .392 kcal</p>
+          <p class="blend">
+            A soft & chewy chocolate cookie topped with chocolate chips ...
+          </p>
+          <button class="dd">Add item</button>
+          <p class="rp">&#8377;367.50</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="mymainpopup">
+      <form class="mypopup">
+        <button class="myskip" type="button" onclick="myskip()">Skip</button>
+        <div class="labes">
+          <label for="email">Enter your email:</label>
+          <br />
+          <input
+            type="email"
+            placeholder="Enter Your Email"
+            required
+            id="email"
+          />
+        </div>
+        <div class="pwd">
+          <label id="pass" for="pwd">Password:</label>
+          <br />
+          <input
+            type="password"
+            placeholder="Enter Your Password"
+            id="email"
+            name="pwd"
+          />
+        </div>
+
+        <button class="subb">Submit</button>
+      </form>
+    </div>
+    <script>
+      function myshow() {
+        document.querySelector(".mymainpopup").style.display = "block";
+      }
+      function myskip() {
+        document.querySelector(".mymainpopup").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

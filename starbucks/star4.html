@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="bucks.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="back"> 
+<div class="menubar">
+    <div class="logo">
+        <img src="logo.png" height="100%" width="100%">
+       </div>
+
+    <div class="menulist">
+        <div class="home"><a href="star.html">Home</a></div>
+        <div class="gift"><a href="star2.html">Gift</a></div>
+        <div class="order"><a href="star3.html">Order</a></div>
+        <div class="pay"><a href="#" onclick="myshow();">Pay</a></div>
+        <div class="store">Store</div>
+        <input type="search" placeholder="looking for something specific?" class="special">
+       <a href="star4.html"><span class="fas fa-user-circle user"> </span></a> 
+    </div>
+</div>
+    <div class="homegiift">
+        <p>Profile > Account</p>
+    </div>
+
+    <div class="prof">
+        <img src="leaf_gold.svg" alt="">
+        <i class="fa-solid fa-gear settings"></i>
+        <img class="sign" src="images'.png"  alt="">
+        <p class="wel">Welcome to Starbucks</p>
+     <button class="login">Login or Sign up</button>
+    </div>
+      <div class="helpcenter">
+
+        <img src="help_centre.svg" alt=""><p> HELP CENTER</p>
+        </div>
+    <section class="us">
+
+        
+        <div><img src="logo.png" alt=""></div> <div class="aboutus"> 
+            <p><h4>About US</h4></p>
+            <p>our heritage</p>
+            <p>Coffeehouse</p>
+            <p>Our Company</p></div>
+          <div class="reponsibilty">
+            <p><h4>Responsibilty</h4></p>
+            <p>Community</p>
+            <p>Ethical Sourcing</p>
+            <p>Enviromental Stewardship</p>
+            <p>Diversity</p>
+          </div>
+          <div class="quicklinks">
+            <p><h4>Quick Links</h4></p>
+            <p>Privacy Policy</p>
+            <p>Starbucks Rewards Day Offer</p>
+            <p>Delivery</p>
+            <p>Seasons Gifting</p>
+            <p>Careers</p>
+            <p>FAQs</p></div>
+          <div class="socialmedia"> 
+            <h4><p>SOCIAL MEDIA</h5></p>
+           <p> <i class="fa-brands fa-instagram icons"></i>
+             <i class="fa-brands fa-twitter icons"></i>
+             <i class="fa-brands fa-facebook icons"></i></p> 
+        </div>
+            <div class="ios">
+                <p> <img src="appstoreiOS.png" height="60px" width="200px"alt=""> </p>
+                 <img src="appstoreAndroid.png" height="60px" width="200px" alt=""></div>
+           </section>
+           <hr>
+        <div class="foot">
+            <ul>
+            <li>Web Accessibility</li> 
+            <li>Privacy statement</li>
+            <li>Terms of Use</li>
+            <li>Contact Us</li>
+            <li>starbucks coffee company. All rights reserved.</li>
+            </ul>
+        </div>
+       
+    </div>
+  
+<div class="mymainpopup">
+  <form class="mypopup">
+    <button class="myskip" type="button" onclick="myskip()">Skip</button>
+    <div class="labes">
+      <label for="email">Enter your email:</label>
+      <br />
+      <input
+        type="email"
+        placeholder="Enter Your Email"
+        required
+        id="email"
+      />
+    </div>
+    <div class="pwd">
+      <label id="pass" for="pwd">Password:</label>
+      <br />
+      <input
+        type="password"
+        placeholder="Enter Your Password"
+        id="email"
+        name="pwd"
+      />
+    </div>
+
+    <button class="subb">Submit</button>
+  </form>
+</div>
+<script>
+  function myshow() {
+    document.querySelector(".mymainpopup").style.display = "block";
+  }
+  function myskip() {
+    document.querySelector(".mymainpopup").style.display = "none";
+  }
+</script></body>
+</html>

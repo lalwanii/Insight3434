@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gift</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+<link rel="stylesheet" href="bucks.css">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .back {
+        float: left;
+        width: 100%;
+      }
+      .logo {
+        height: 50px;
+        width: 50px;
+        float: left;
+        margin-left: 80px;
+        margin-top: 17px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .menubar {
+        width: 100%;
+        float: left;
+        box-shadow: 2px 2px 2px gainsboro;
+        z-index: 5;
+        position: relative;
+      }
+      .menulist {
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .menulist a {
+        text-decoration: none;
+        color: black;
+      }
+      .home {
+        margin: 4px;
+        padding: 30px;
+      }
+
+      .gift {
+        margin: 5px;
+        padding: 30px;
+      }
+
+      .order {
+        margin: 5px;
+        padding: 30px;
+      }
+
+      .pay {
+        margin: 5px;
+        padding: 30px;
+      }
+
+      .store {
+        margin: 5px;
+        padding: 30px;
+      }
+
+      .more {
+        color: white;
+        padding: 10px;
+        margin-top: 27px;
+        border: 1px solid white;
+        border-radius: 50px;
+        font-size: 12px;
+        float: right;
+        margin-right: 150px;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .user {
+        float: right;
+        padding: 20px;
+        height: 5vh;
+        margin-top: 10px;
+        margin-left: 300px;
+        font-size: 20px;
+      }
+
+      .special {
+        border-radius: 75px;
+        width: 230px;
+        height: 5vh;
+        margin-top: 24px;
+        margin-left: 210px;
+        padding-left: 20px;
+      }
+      section {
+        float: left;
+      }
+      .giftcard {
+        height: 290px;
+        background-color: #1e3932;
+        width: 100%;
+      }
+      .homegiift {
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+        height: 30px;
+      }
+      .homegiift p {
+        float: left;
+        height: fit-content;
+        margin-left: 110px;
+      }
+      .vali {
+        margin-top: 30px;
+        height: 220px;
+        width: 1330px;
+        border-radius: 10px;
+        background-image: url(download.jpg);
+        margin-left: 100px;
+      }
+      .vali img {
+        height: 220px;
+        margin: 3px;
+      }
+      .vali p {
+        position: relative;
+        left: 160px;
+        bottom: 220px;
+        height: 30px;
+        width: 100px;
+        background: transparent;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .vali p:nth-child(3) {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 30px;
+        width: fit-content;
+      }
+      .vali p:nth-child(4) {
+        width: fit-content;
+        margin-top: 10px;
+      }
+      .vali p:nth-child(5) {
+        height: fit-content;
+        float: left;
+        margin-top: 25px;
+      }
+
+      .vali button {
+        width: 90px;
+        height: 30px;
+        background-color: #00754a;
+        border-radius: 25px;
+        color: white;
+        position: relative;
+        box-shadow: 2px 2px 2px grey;
+        margin-left: 980px;
+        bottom: 20px;
+      }
+      .anytime {
+        height: 50px;
+        float: left;
+        width: 100%;
+        background-color: rgb(240, 229, 229);
+      }
+      .anytime ul {
+        list-style-type: none;
+        margin: 16px;
+        column-gap: 100px;
+        display: flex;
+        margin-left: 150px;
+      }
+      li:hover {
+        color: #00754a;
+      }
+      .congrats {
+        width: 90%;
+        height: 550px;
+        width: 100%;
+        background-color: white;
+      }
+      .anny {
+        height: 205px;
+        width: 410px;
+        background-color: rgb(240, 229, 229);
+        position: relative;
+        border-radius: 10px;
+      }
+      .starbuckscoffee {
+        height: 205px;
+        width: 410px;
+        background-color: rgb(240, 229, 229);
+        position: relative;
+        border-radius: 10px;
+      }
+      .ukeepmewarm {
+        height: 205px;
+        width: 410px;
+        background-color: rgb(240, 229, 229);
+        position: relative;
+        float: left;
+        border-radius: 10px;
+      }
+      .warmth {
+        position: relative;
+        display: flex;
+        column-gap: 50px;
+        margin-left: 100px;
+        margin-top: 10px;
+      }
+      .warmth img {
+        position: relative;
+        top: 15px;
+        border-radius: 10px;
+        width: 165px;
+        right: 30px;
+        box-shadow: 0.02px 2px 4px grey;
+      }
+      .warmth p {
+        background-color: gainsboro;
+        width: 240px;
+        margin-left: 150px;
+        margin-bottom: -80px;
+        width: fit-content;
+        background-color: transparent;
+        height: fit-content;
+      }
+      .india {
+        position: relative;
+        bottom: 90px;
+      }
+      .additem {
+        width: 90px;
+        height: 30px;
+        background-color: #00754a;
+        border-radius: 25px;
+        color: white;
+        position: relative;
+        left: 300px;
+        top: 160px;
+      }
+      .at {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 120px;
+      }
+      .congo p {
+        background-color: gainsboro;
+        width: 240px;
+        margin-left: 150px;
+        margin-bottom: -80px;
+        background-color: transparent;
+        width: fit-content;
+        height: fit-content;
+      }
+      .india {
+        position: relative;
+        bottom: 90px;
+      }
+      .congo img {
+        position: relative;
+        top: 15px;
+        border-radius: 10px;
+        width: 165px;
+        right: 30px;
+        box-shadow: 0.02px 2px 4px grey;
+      }
+      .congo {
+        height: 205px;
+        width: 410px;
+        background-color: rgb(240, 229, 229);
+        position: relative;
+        border-radius: 10px;
+        margin-left: 100px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="back">  
+      <div class="menubar">
+        <div class="logo">
+          <img src="logo.png" height="100%" width="100%" />
+        </div>
+
+        <div class="menulist">
+          <div class="home"><a href="star.html">Home</a></div>
+          <div class="gift"><a href="star2.html">Gift</a></div>
+        <div class="order"><a href="star3.html">Order</a></div>
+        <div class="pay"><a href="#" onclick="myshow();">Pay</a></div>
+
+          <div class="store">Store</div>
+          <input
+            type="search"
+            placeholder="looking for something specific?"
+            class="special"
+          />
+          <span class="fas fa-user-circle user"> </span>
+        </div>
+      </div>
+      <div class="homegiift">
+        <p>Home > Gift</p>
+      </div>
+      <section class="giftcard">
+        <div class="vali">
+          <img src="Valentine_Banner_Icon_5_dfb5b2bd3e (1).png" alt="" />
+          <p>Gift This</p>
+          <p>Purrfectly in Love</p>
+          <p>
+            Spread cuteness overloaded with cat-tastic design pink mug for you
+            and your loved one.
+          </p>
+          <p>Starting From</p>
+          <b><p class="vm">&#8377; 1650</p></b>
+          <p><button>Buy Now</button></p>
+        </div>
+      </section>
+      <section class="anytime">
+        <ul>
+          <li>FEATURED</li>
+          <li>ANYTIME</li>
+          <li>CONGRTULATION</li>
+          <li>THANK YOU</li>
+        </ul>
+      </section>
+      <section class="congrats">
+        <p class="at">ANYTIME</p>
+        <hr />
+
+        <div class="warmth">
+          <div class="anny">
+            <img
+              src="TSB_GC_indiacard_1_1_28dafb2bb6.png"
+              height="104"
+              alt=""
+            />
+            <p class="india"><b> India Exclusive</b></p>
+            <p>
+              Bring in the festive season and make each celebration memorable.
+            </p>
+            <button class="additem">Add item</button>
+          </div>
+          <div class="starbuckscoffee">
+            <img
+              src="71d3780c_be6e_46b1_ab01_8a2bce244a7f_1_1_2d1afadaa0.png"
+              height="104"
+              alt=""
+            />
+            <p class="india"><b>Starbucks Coffee </b></p>
+            <p>
+              Starbucks is best when shared. Treat your pals to a good cup of
+              coffee.
+            </p>
+            <button class="additem">Add item</button>
+          </div>
+          <div class="ukeepmewarm">
+            <img
+              src="7c6f7c64_3f89_4ba2_9af8_45fc6d94ad35_1_1bdd3bf075.webp"
+              height="104"
+              alt=""
+            />
+            <p class="india"><b> U Keep Me Warm</b></p>
+            <p>
+              Captivating, cosy, coffee. Gift your loved ones this Starbucks
+              Gift Card.
+            </p>
+            <button class="additem">Add item</button>
+          </div>
+        </div>
+        <p class="at">Congratulations</p>
+
+        <hr />
+        <div class="congo">
+          <img
+            src="97ee3280_2f05_43ad_bd94_f5c184d4f502_1_0a31455af9.png"
+            height="104"
+            alt=""
+          />
+          <p class="india"><b> Congrats</b></p>
+          <p>
+            Coffee. Cheer. Celebrate. Enjoy each of your special moments with
+            Starbucks.
+          </p>
+          <button class="additem">Add item</button>
+        </div>
+      </section>
+    </div>
+    
+   <section class="us">
+    <div><img src="logo.png" alt=""></div> <div class="aboutus"> 
+        <p><h4>About US</h4></p>
+        <p>our heritage</p>
+        <p>Coffeehouse</p>
+        <p>Our Company</p></div>
+      <div class="reponsibilty">
+        <p><h4>Responsibilty</h4></p>
+        <p>Community</p>
+        <p>Ethical Sourcing</p>
+        <p>Enviromental Stewardship</p>
+        <p>Diversity</p>
+      </div>
+      <div class="quicklinks">
+        <p><h4>Quick Links</h4></p>
+        <p>Privacy Policy</p>
+        <p>Starbucks Rewards Day Offer</p>
+        <p>Delivery</p>
+        <p>Seasons Gifting</p>
+        <p>Careers</p>
+        <p>FAQs</p></div>
+      <div class="socialmedia"> 
+        <h4><p>SOCIAL MEDIA</h5></p>
+       <p> <i class="fa-brands fa-instagram icons"></i>
+         <i class="fa-brands fa-twitter icons"></i>
+         <i class="fa-brands fa-facebook icons"></i></p> 
+    </div>
+        <div class="ios">
+            <p> <img src="appstoreiOS.png" height="60px" width="200px"alt=""> </p>
+             <img src="appstoreAndroid.png" height="60px" width="200px" alt=""></div>
+       </section>
+       <hr>
+    <div class="foot">
+        <ul>
+        <li>Web Accessibility</li> 
+        <li>Privacy statement</li>
+        <li>Terms of Use</li>
+        <li>Contact Us</li>
+        <li>starbucks coffee company. All rights reserved.</li>
+        </ul>
+    </div>
+    
+<div class="mymainpopup">
+  <form class="mypopup">
+    <button class="myskip" type="button" onclick="myskip()">Skip</button>
+    <div class="labes">
+      <label for="email">Enter your email:</label>
+      <br />
+      <input
+        type="email"
+        placeholder="Enter Your Email"
+        required
+        id="email"
+      />
+    </div>
+    <div class="pwd">
+      <label id="pass" for="pwd">Password:</label>
+      <br />
+      <input
+        type="password"
+        placeholder="Enter Your Password"
+        id="email"
+        name="pwd"
+      />
+    </div>
+
+    <button class="subb">Submit</button>
+  </form>
+</div>
+<script>
+  function myshow() {
+    document.querySelector(".mymainpopup").style.display = "block";
+  }
+  function myskip() {
+    document.querySelector(".mymainpopup").style.display = "none";
+  }
+</script>
+  </body>
+</html>

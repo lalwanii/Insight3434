@@ -1,0 +1,777 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.back {
+  float: left;
+  width: 100%;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 80px;
+  margin-top: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menulist {
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menulist a {
+  text-decoration: none;
+  color: black;
+}
+.home {
+  margin: 4px;
+  padding: 30px;
+}
+
+.gift {
+  margin: 5px;
+  padding: 30px;
+}
+
+.order {
+  margin: 5px;
+  padding: 30px;
+}
+
+.pay {
+  margin: 5px;
+  padding: 30px;
+}
+
+.store {
+  margin: 5px;
+  padding: 30px;
+}
+
+.cheers1 {
+  float: left;
+  background-color: #1e3932;
+  color: white;
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+}
+
+.cheers {
+  float: left;
+  padding: 27px;
+}
+
+.more {
+  color: white;
+  padding: 10px;
+  margin-top: 27px;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-size: 12px;
+  float: right;
+  margin-right: 150px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.user {
+  float: right;
+  padding: 20px;
+  height: 5vh;
+  margin-top: 10px;
+  margin-left: 300px;
+  font-size: 20px;
+}
+
+.special {
+  border-radius: 75px;
+  width: 230px;
+  height: 5vh;
+  margin-top: 24px;
+  margin-left: 210px;
+  padding-left: 20px;
+}
+
+.imgs {
+  float: left;
+  margin-top: 30px;
+  padding: 20px;
+  color: #1e3932;
+}
+
+h1 {
+  height: 5vh;
+  margin-left: 50px;
+  width: 400px;
+  font-size: 30px;
+}
+
+.images {
+  margin-top: 37px;
+  display: flex;
+  text-align: center;
+}
+.images img:hover {
+  border: 1px solid#1e3932;
+}
+.img1 {
+  border-radius: 50%;
+  height: 108px;
+  width: 108px;
+  float: left;
+  margin: 60px 60px 0px 60px;
+}
+
+.img2 {
+  float: left;
+  border-radius: 50%;
+  height: 108px;
+  width: 108px;
+  margin: 60px 60px 0px 60px;
+}
+
+.img3 {
+  float: left;
+  border-radius: 50%;
+  height: 108px;
+  width: 108px;
+  margin: 60px 60px 0px 60px;
+}
+
+.img4 {
+  float: left;
+  border-radius: 50%;
+  height: 108px;
+  width: 108px;
+  margin: 60px 60px 0px 60px;
+}
+
+.img5 {
+  float: left;
+  border-radius: 50%;
+  height: 108px;
+  margin: 60px 60px 0px 60px;
+  width: 108px;
+}
+
+.c {
+  font-weight: bold;
+}
+
+.img6 {
+  float: left;
+  border-radius: 50%;
+  height: 108px;
+  width: 108px;
+  margin: 60px 60px 0px 60px;
+}
+
+.img12 {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.block {
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  width: 450px;
+  height: 20vh;
+  border: 1px solid white;
+}
+section {
+  width: 100%;
+  float: left;
+  height: 350px;
+  background-color: rgba(232, 231, 231, 0.845);
+}
+.baris {
+  float: left;
+  color: #1e3932;
+  width: 100%;
+  margin-top: 50px;
+}
+section div h1 {
+  margin-left: 100px;
+}
+span {
+  float: left;
+  margin-left: 1300px;
+}
+.slidebar {
+  border-radius: 10px;
+  margin: 20px 0px 0px 100px;
+  width: 420px;
+  height: 170px;
+  float: left;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 2px 0px 1px rgb(173, 172, 172);
+}
+.menuitem img {
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+#veg {
+  height: 15px;
+  width: 15px;
+  float: left;
+  border-radius: 2px;
+}
+.shakes {
+  width: 180px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.flo {
+  margin-left: 15px;
+  float: left;
+  margin-top: 10px;
+}
+#rupee {
+  margin-top: 20px;
+  float: left;
+  width: 380px;
+  clear: both;
+}
+#more {
+  float: right;
+  width: 90px;
+  height: 30px;
+  background-color: #00754a;
+  border-radius: 25px;
+  color: white;
+  box-shadow: 2px 2px 2px grey;
+}
+.vshakes {
+  width: 190px;
+  float: left;
+  clear: both;
+  height: 20px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2px;
+}
+#tall {
+  clear: both;
+  font-size: 10px;
+  float: left;
+  height: 10px;
+}
+.offer {
+  background-color: white;
+  color: #1e3932;
+  width: 100%;
+  float: left;
+  height: fit-content;
+}
+.latteimg img {
+  height: 161px;
+  width: 407px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  float: left;
+  object-fit: cover;
+}
+.latteimg {
+  box-shadow: 2px 2px 2px grey;
+  margin-left: 60px;
+  height: 310px;
+  clear: both;
+  width: 407px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: rgba(243, 241, 241, 0.79);
+  margin-top: 50px;
+  float: left;
+}
+#vegie {
+  height: 18px;
+  border-radius: 0%;
+  width: 18px;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: left;
+}
+.context img {
+  float: left;
+}
+.latest {
+  float: left;
+  margin-top: 40px;
+  height: 40px;
+  width: 220px;
+}
+#creamy {
+  font-size: 20px;
+  margin-top: 5px;
+  float: left;
+  clear: both;
+  margin-left: 20px;
+}
+#short {
+  float: left;
+  margin-left: 20px;
+}
+.latteimg1 {
+  float: left;
+}
+.content {
+  display: flex;
+  margin-top: 60px;
+}
+.learnmore {
+  background-color: rgba(232, 231, 231, 0.845);
+  width: 100%;
+  margin-top: 50px;
+  height: 550px;
+}
+.discover {
+  float: left;
+  color: #1e3932;
+  width: 500px;
+  margin-top: 35px;
+}
+.discovermore h1 p {
+  float: left;
+}
+.dis {
+  color: #00754a;
+  width: 120px;
+  bottom: 20px;
+  position: relative;
+  float: right;
+}
+.discovermore {
+  height: 100px;
+}
+.learn {
+  float: left;
+  height: 370px;
+  width: 1280px;
+  margin-left: 100px;
+  border-radius: 10px;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.383063) 55.07%,
+      black 100%
+    ),
+    url(coffee_culture_blog_web1_c6e691b286.jpg);
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.learn span {
+  margin: 0;
+  color: whitesmoke;
+}
+.learn button {
+  position: relative;
+  margin: 0;
+  float: left;
+  padding: 2px;
+  color: #00754a;
+  margin: 20px;
+}
+.HOWz {
+  position: relative;
+  top: 0px;
+  float: left;
+  margin-top: 130px;
+  color: white;
+  font-size: 20px;
+}
+
+.learn:hover {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.622),
+      rgba(0, 0, 0, 0.615),
+      black 100%
+    ),
+    url(coffee_culture_blog_web1_c6e691b286.jpg);
+
+  background-size: cover;
+  color: black;
+  cursor: pointer;
+}
+.us {
+  background-color: #1e3932;
+  height: 400px;
+  width: 100%;
+  float: left;
+}
+.us img:nth-child(1) {
+  height: 90px;
+  width: 90px;
+  background-color: #1e3932;
+}
+
+.us div {
+  color: white;
+  margin: 70px 0px 0px 110px;
+  float: left;
+}
+.socialmedia p i {
+  font-size: 25px;
+  position: relative;
+  margin: 10px;
+  right: 10px;
+}
+.us div p {
+  margin-top: 20px;
+}
+.ios {
+  float: right;
+  left: 200px;
+  bottom: 160px;
+}
+.foot {
+  background-color: #1e3932;
+  color: white;
+  float: left;
+  width: 100%;
+  height: 100px;
+}
+.ios img:nth-child(1) {
+  position: relative;
+  height: 60px;
+  width: 200px;
+  left: 200px;
+  bottom: 200px;
+}
+.ios img:nth-child(2) {
+  position: relative;
+  margin-left: 200px;
+  bottom: 200px;
+}
+.foot ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 120px;
+  padding: 20px;
+  column-gap: 100px;
+}
+.foot li:nth-last-child(1) {
+  list-style-type: none;
+  margin-left: 220px;
+}
+.head {
+  position: relative;
+  bottom: 20px;
+}
+.homegiift {
+  margin-top: 20px;
+  width: 100%;
+  float: left;
+  height: 30px;
+}
+.homegiift p {
+  float: left;
+  height: fit-content;
+  margin-left: 110px;
+}
+.storefound {
+  background-color: #1e3932;
+  float: left;
+  height: 150px;
+  width: 100%;
+}
+.minn {
+  margin-left: 450px;
+}
+.bestt {
+  background-color: rgba(232, 231, 231, 0.845);
+  position: relative;
+  color: gray;
+  height: 50px;
+  width: 100%;
+  float: left;
+}
+
+.bestt ul {
+  margin-left: 110px;
+  list-style-type: none;
+  column-gap: 80px;
+  margin-top: 15px;
+  font-size: 17px;
+  display: flex;
+}
+.bestt ul li:hover {
+  color: #00754a;
+}
+.bestt ul li::before {
+  content: "";
+}
+/* lines 
+.bestt ul li::after {
+  position: relative;
+  height: 10px;
+  bottom: 0;
+  background-color: #00754a;
+  left: 0;
+  width: 0%;
+  animation-name: line;
+}
+.bestt ul li::before {
+  content: "";
+}
+@keyframes line {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
+.bestt:hover::after {
+  animation-name: line;
+  animation-duration: 2s;
+}*/
+.menubar {
+  width: 100%;
+  float: left;
+  box-shadow: 2px 2px 2px gainsboro;
+  z-index: 5;
+  position: relative;
+}
+.storefound img {
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+.storefound p {
+  bottom: 13px;
+  color: white;
+  font-size: 15px;
+  position: relative;
+}
+.storefound i {
+  width: 290px;
+  top: 5px;
+  left: 427px;
+  position: relative;
+  color: white;
+  font-size: 20px;
+}
+.pink {
+  height: 8vh;
+  border-radius: 5px;
+  position: relative;
+  left: 110px;
+  width: 26vw;
+  background-color: pink;
+}
+.pink img {
+  width: 35px;
+  color: orangered;
+  left: 22px;
+  top: 8px;
+  position: relative;
+}
+.pink p {
+  color: #d62b1f;
+  font-size: 15px;
+  left: 65px;
+  top: -30px;
+  position: relative;
+}
+.pink p:nth-child(3) {
+  top: -24px;
+  font-size: 13px;
+  color: black;
+}
+.conntent {
+  float: left;
+  margin-top: 20px;
+  height: 30vh;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+.conntent p {
+  top: 100px;
+  position: relative;
+  margin-left: 110px;
+}
+.java {
+  background-color: white;
+  height: fit-content;
+  width: 100%;
+}
+.java div {
+  background-color: rgba(232, 231, 231, 0.845);
+  width: 415px;
+  height: 250px;
+  display: flex;
+  float: left;
+  position: relative;
+  margin: 20px;
+  left: 90px;
+  border-radius: 10px;
+}
+.java div:hover {
+  box-shadow: 0px 0px 10px;
+}
+.java div img {
+  border-radius: 50%;
+  margin: 20px;
+}
+.java div .vg {
+  top: 10px;
+  position: relative;
+  left: -20px;
+  border-radius: 0px;
+}
+.chip {
+  margin-top: 50px;
+  font-size: 15px;
+  float: left;
+  position: absolute;
+  width: 250px;
+  height: fit-content;
+  margin-right: 55px;
+  left: 136px;
+  font-weight: bold;
+}
+.size {
+  position: relative;
+  width: 150px;
+  position: absolute;
+  font-size: 11px;
+  top: 90px;
+  right: 130px;
+  height: fit-content;
+}
+.blend {
+  width: 250px;
+  height: fit-content;
+  top: 110px;
+  position: absolute;
+  left: 135px;
+}
+.dd {
+  height: 30px;
+  width: 85px;
+  border-radius: 25px;
+  background-color: gray;
+  top: 200px;
+  left: 115px;
+  color: white;
+  position: relative;
+}
+.rp {
+  font-weight: bold;
+  left: -145px;
+  top: 210px;
+  position: relative;
+}
+.helpcenter {
+  position: relative;
+  margin-top: 250px;
+  font-size: 20px;
+}
+.helpcenter img {
+  float: left;
+  margin-bottom: 25px;
+  height: 30px;
+  width: 30px;
+}
+.helpcenter p {
+  float: left;
+}
+.prof {
+  top: 150px;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background-color: rgb(248, 242, 235);
+}
+.settings {
+  left: 1300px;
+  bottom: 225px;
+  position: relative;
+}
+.login {
+  background-color: black;
+  color: white;
+  height: 40px;
+  border-radius: 75px;
+  padding: 5px 10px 30px -10px;
+  font-size: 14px;
+  width: 240px;
+  margin-top: 20px;
+  margin-left: 620px;
+}
+.sign {
+  position: relative;
+  bottom: 90px;
+  left: 465px;
+}
+.wel {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 590px;
+}
+.mymainpopup {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.452);
+}
+.mypopup {
+  background-color: white;
+  width: 50vw;
+  padding: 30px;
+  position: fixed;
+  display: block;
+  border-radius: 10px;
+  top: 23%;
+  left: 25%;
+  text-align: center;
+}
+.labes,
+.pwd {
+  font-size: 40px;
+  margin-top: 40px;
+}
+#email {
+  margin-top: 20px;
+  font-size: 20px;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.subb {
+  background-color: #1e3932;
+  font-size: 15px;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 75px;
+  margin: 30px;
+}
+.myskip {
+  background-color: transparent;
+  font-size: 15px;
+  color: #1e3932;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
